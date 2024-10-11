@@ -23,15 +23,19 @@
             theme: {
                 extend: {
                     width: {
+                        '45': '45px',
                         '180': '180px',
                         '205': '205px',
+                        '213': '213px',
                         '245': '245px',
                         '246': '246px',
                         '350': '350px',
                         '351': '351px',
                         '360': '360px',
                         '394': '394px',
+                        '539': '539px',
                         '580': '580px',
+                        '720': '720px',
                         '870': '870px',
                         '1037.22': '1037.22px',
                         '1160': '1160px',
@@ -43,9 +47,16 @@
                     },
                     height: {
                         '42': '42px',
+                        '45': '45px',
                         '60': '60px',
+                        '70': '70px',
                         '88': '88px',
+                        '200': '200px',
+                        '220': '220px',
+
                         '240': '240px',
+                        '257': '257px',
+                        '271': '271px',
                         '245': '245px',
                         '309': '309px',
                         '360': '360px',
@@ -54,13 +65,18 @@
                         '545': '545',
                         '653': '653',
                         '678': '678',
+                        '1265': '1265',
                     },
                     spacing: {
+                        '12': '12px',
                         '20': '20px',
                         '40': '40px',
                         '60': '60px',
                         '77': '77px',
+                        '140': '140px',
                         'm300': '-300px',
+
+                        '336': '336px',
                         '420': '420px',
                         '460': '460px',
                         'm150': '-150px',
@@ -68,6 +84,7 @@
                     colors: {
                         customGrey: '#A8A8A8',
                         customGreen: '#8DFD1B',
+                        customGreyDark: '#222222',
                     }
                 },
             },
@@ -75,9 +92,10 @@
     </script>
 
     <style>
-        body{
+        body {
             max-width: 1440px;
         }
+
         .nav__icons {
             justify-content: space-between;
         }
@@ -183,7 +201,7 @@
             font-size: 79px;
             margin-top: 120px;
             margin-bottom: 120px;
-           
+
         }
 
         .block6 {
@@ -247,7 +265,8 @@
             font-size: 38px;
             font-weight: 400;
         }
-        .block6_content{
+
+        .block6_content {
             margin-left: -50px;
         }
 
@@ -255,7 +274,85 @@
             margin-top: -360px;
         }
 
-       
+        .block8_title {
+            font-family: "Audiowide", sans-serif;
+            line-height: 45.48px;
+            font-size: 38px;
+            font-weight: 400;
+            margin-top: 118px;
+            margin-bottom: 106px;
+        }
+
+        .block8_title1 {
+            font-family: "DM Mono", monospace;
+            font-size: 8px;
+            line-height: 12px;
+            font-weight: 400;
+            color: #8DFD1B;
+        }
+
+        .block8_title2 {
+            font-family: "DM Mono", monospace;
+            font-size: 16px;
+            line-height: 27.73px;
+            font-weight: 400;
+            color: white;
+        }
+
+        .border_block8 {
+            border: #8DFD1B solid 1px;
+        }
+
+        .block8_style_number {
+            font-family: "DM Mono", monospace;
+            font-size: 28px;
+            line-height: 28.42px;
+            font-weight: 400;
+        }
+
+        .block8_text_1 {
+            font-family: "Inter", sans-serif;
+            font-size: 11px;
+            line-height: 32px;
+            font-weight: 400;
+            max-width: 250px;
+            margin-left: 35px;
+            margin-top: 26px;
+        }
+
+        .block8_text_2 {
+            font-family: "Inter", sans-serif;
+            font-size: 11px;
+            line-height: 25.6px;
+            font-weight: 400;
+            width: 310px;
+            margin-left: 12px;
+            margin-top: 14px;
+        }
+
+        .block8_item_content_image {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 75px;
+        }
+
+        .block10_title {
+            font-family: "Audiowide", sans-serif;
+            font-weight: 400;
+            font-size: 51px;
+            line-height: 60.61px;
+        }
+        .block10_text{
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            line-height: 25.6px;
+            font-weight: 400;
+        }
+        .block10_button_text{
+            font-family: "DM Mono", monospace;
+            font-size: 16px;
+            line-height: 16px;
+        }
     </style>
 
 </head>
@@ -490,11 +587,11 @@
                     </div>
                 </div>
                 <div class="block3_content w-580 h-424">
-                    
+
                 </div>
             </div>
         </div>
-<!--block6_right_content -->
+        <!--block6_right_content -->
     </div>
     <!-- /.block6 -->
 
@@ -503,8 +600,142 @@
     </div>
     <!-- /.block7 -->
 
+    <div class="block8 w-720 h-1265 ml-336 flex flex-col justify-center items-center">
+
+        <h1 class="block8_title text-white">Roadmap</h1>
+        <!-- Block 1 -->
+        <div class="block8_item1 w-539 h-271 bg-customGreyDark  ">
+
+            <div class="block8_item1_title w-539 h-70 flex items-center border_block8">
+
+                <div
+                    class="block8_item1_title_number bg-customGreen w-45 h-45 text-black flex justify-center items-center ml-12 block8_style_number">
+                    1</div>
+
+                <div class="block8_title_1_2 ml-12">
+                    <p class="block8_title1">Phase 1 - completed</p>
+                    <p class="block8_title2">Spring 2022 - pre launch</p>
+                </div>
+            </div>
 
 
+            <div class="block8_item1_content w-539 h-200 border_block8 flex flex-row">
+                <div class="block8_item1_content_text text-white">
+                    <div class="block8_text_1">Website 1.2<br>
+                        Discord community promotion<br>
+                        MINTING WAVE NFTs <br>
+                    </div>
+                    <div class="block8_text_2">
+                        WAVE NFTs will be 100% pre-minted and launched as an OpenOcean collection
+                    </div>
+                </div>
+                <div class="block8_item_content_image">
+                    <img src="/block8_1.png" alt="#">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.block8_item1 -->
+
+        <svg style="margin-top: 54px; margin-bottom: 45px;" xmlns="http://www.w3.org/2000/svg" width="1" height="40"
+            viewBox="0 0 1 40" fill="none">
+            <path d="M0 0H1V40H0V0Z" fill="#8DFD1B" />
+        </svg>
+
+        <!-- Block 2 -->
+        <div class="block8_item2 w-539  bg-customGreyDark  border_block8">
+
+            <div class="block8_item2_title w-539 h-70 flex items-center border_block8">
+                <div
+                    class="block8_item2_title_number bg-customGreyDark w-45 h-45 text-customGreen flex justify-center items-center ml-12 border_block8 block8_style_number">
+                    2</div>
+
+                <div class="block8_title_1_2 ml-12 ">
+                    <p class="block8_title1">Phase 2</p>
+                    <p class="block8_title2">Summer 2022 - GROWTH</p>
+                </div>
+
+            </div>
+
+            <div class="block8_item2_content w-539 h-257 border_block8 flex flex-row">
+                <div class="block8_item2_content_text text-white">
+                    <div class="block8_text_1">Hiring for 10 positions in<br>
+                        Partnerships with main Metaverse players<br>
+                        Partnerships with WEB 2.0 music destribution <br>
+                    </div>
+                    <p class="block8_text_2">Onboarding 100 new artists</p>
+                    <div class="block8_text_2">
+                        META Record Labels is holding the first screening of aspiring artists from the list of WAVE NFT
+                        holders
+                    </div>
+                </div>
+                <div class="block8_item_content_image">
+                    <img src="/block8_2.png" alt="#">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.block8_item2 -->
+
+        <svg style="margin-top: 54px; margin-bottom: 45px;" xmlns="http://www.w3.org/2000/svg" width="1" height="40"
+            viewBox="0 0 1 40" fill="none">
+            <path d="M0 0H1V40H0V0Z" fill="#8DFD1B" />
+        </svg>
+
+        <!-- Block 3 -->
+        <div class="block8_item3 w-539 h-291 bg-customGreyDark border_block8">
+
+            <div class="block8_item3_title w-539 h-70 flex items-center border_block8">
+                <div
+                    class="block8_item3_title_number bg-customGreyDark w-45 h-45 text-customGreen flex justify-center items-center ml-12 border_block8 block8_style_number">
+                    3</div>
+                <div class="block8_title_1_2 ml-12">
+                    <p class="block8_title1">Phase 3</p>
+                    <p class="block8_title2">Summer 2022 - YOuR new stage</p>
+                </div>
+
+            </div>
+
+            <div class="block8_item3_content w-539 h-220 border_block8 flex flex-row">
+                <div class="block8_item3_content_text text-white">
+                    <div class="block8_text_1">Onboarding new partners<br>
+                        First live concert in Sandjar<br>
+                        Live concert in Decentrafield <br>
+                    </div>
+                    <div class="block8_text_2">
+                        We secured dates for out artists to peform in front of the live audience of Metaverse. Check the
+                        concert schedule in our
+                    </div>
+                </div>
+                <div class="block8_item_content_image ">
+                    <img src="/block8_3.png" alt="#">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.block8_item3 -->
+
+    </div>
+    <!-- /.block8 -->
+
+    <div class="block9 mt-336 flex truncate">
+        <img src="/logoholder.png" alt="#"> <img class="ml-40" src="/logoholder.png" alt="#">
+    </div>
+    <!-- /.block9 -->
+
+    <div class="block10 w-1160 mt-336 flex justify-center items-center ml-140">
+        <div class="block10_content ">
+            <h1 class="block10_title text-white">Join our</h1>
+            <h1 class="block10_title text-customGreen mb-40">Discord</h1>
+            <p class="block10_text text-white w-350 mb-40"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                tristique.</p>
+            <button class="bg-customGreen text-black w-213 h-42 flex block10_button_text"><img class="mt-12 ml-12" src="button_image.png" alt="#">
+                <p class="mt-12 ml-40">Join Discord</p>
+            </button>
+        </div>
+        <div class="block10_image"><img  src="block10_image.png" alt="#"></div>
+    </div>
+    <!-- /.block10 -->
 
 
 
